@@ -1,0 +1,44 @@
+* {
+    font-family: 'IM Fell French Canon', sarif;
+}
+
+#header {
+    /* color: white; */
+    background-image: url("Images/header.jpg")
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 600px) {
+    /* adding padding to effect div in html under header. moves the text so it no longer overlaps image on left.  applicable when viewed on really small screen sizes under 600px */
+    #header {
+        padding: 0 100px;
+    }
+    
+
+}
+/* commonly used break points */
+/* lap tops */
+@media (min-width: 992px) {
+.card-text {
+    height: 110px;
+}
+}
+/* extra large lap tops */
+@media (min-width: 1200px) {
+    .card-text {
+        height: 90px;
+    }
+}
+
+/* large monitors */
+@media (min-width: 1400px) {
+    .card-text {
+        height: 70px;
+    }
+}
+
+
+
+
